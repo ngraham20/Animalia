@@ -28,6 +28,7 @@ private:
 	int birthYear;
 public:
 	Animal(Sex s, int year) : sex(s), birthYear(year) { }
+	int Age(int);
 };
 
 class Mammal : public Animal
