@@ -1,7 +1,7 @@
 #include "Animalia.h"
 #include<iostream>
 
-int Mammal::Speek()
+int Mammal::Speak()
 {
 	std::cout << "...melifluous noise...";
 	return 0;
